@@ -16,8 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
    this.foods= this.foodService.getAll();
   this.router.params.subscribe(params=>{
-  if(params.searchItem)
-  })
+ 
   }
 
 }
