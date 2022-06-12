@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "foodorderingApp": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "foodorderingApp"
+    }
+  },
+  "defaultProject": "foodorderingApp",
+  "cli": {
+    "analytics": "e7e2095e-b114-4dc0-889b-5e63a69d50e9"
+  }
 }
